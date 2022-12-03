@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { Game } from 'src/app/models';
+import { Game } from 'src/app/model';
 import { HttpService } from 'src/app/services/http.service';
 
 @Component({
